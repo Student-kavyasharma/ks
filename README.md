@@ -16,7 +16,6 @@ return 0;
 o/p
 1
 1
-1
 .
 .
 The specified condition which we have to stop is called the base condition or case. 
@@ -46,5 +45,38 @@ Recursion Tree
     f()
   f()
 
+  PRINT NAME N TIMES USING RECURSION(Time complexity = o(n) )
+  void f(i,n)
+  {
+  if(i>3)
+  return;
+  print("kavya");
+  f(i+1,n);                    o/p       kavya 
+  }                                      kavya
+  main(){                                kavya
+  f(1,n);                                        
+PRINT  1-N                           REVERSE ORDER(PRINT N-1)
+f(i,N){                              f(i,N){
+if(i>N)                              if(i<1)
+return;                              return; 
+print(i)                             print(i)
+f(i+1,N)                             f(i-1,N);
+}                                    }
+main()                               main()
+{                                    {
+input(N)                             input(N)
+f(1,N)}                              f(N,N)
 
+PRINT LINEARLY FROM 1 TO N(BUT BY BACKTRACK)
+f(i,N)
+{
+if(i<1)
+return;
+f(i-1,N)
+print (i);
+}
+main(){                           O/P
+input(n)                          1
+f(N,N);                           2
+                                  3
 
