@@ -1,0 +1,54 @@
+*****               for(int i=1;i<=4;i++){
+*****               for(int j=1;i<=5;i++){
+*****               System.out.print("*");}
+*****
+
+*****               for(int i=1;i<=n;i++){
+*   *               for(int j=1;j<=m;j++){
+*   *               if(i==1||j==1||i==n||j==m){
+*****  
+
+*                  for(int i=1;i<=n;i++){
+**                 for(int j=1;j<=i;i++){
+***
+****
+
+****               for(int i=n;i>=1;i--){
+***                for(int j=1;j<=i;j++){
+**
+*
+
+   *              for(int i=1;i<=n;i++){
+  **              for(int j=1;j<=n-1;j++){
+ ***              System.out.print(" ")}
+****              for(int j=1;;j<=1;j++){
+                  System.out.println();
+
+ 1                for(int i=1;i<=n;i++){
+ 12               for(int j=1;j<=i;j++){
+ 123              system.out.print(j+" ");
+ 1234            
+ 12345
+
+ 12345           for(int i=1;i<=n;i++){
+ 1234            for(int j=1;j<=n-i+1;j++){
+ 123
+ 12
+ 1
+
+ 1              int n=5;
+ 2 3            int number=1;
+ 4 5 6          for(int i=1;i<=n;i++){
+ 7 8 9 10       for(int j=1;j<=i;j++){
+ 11 12 13 14 15 System.out.print(number);
+                number++;}
+
+
+ 1             for(int i=1;i<=n;i++){
+ 01            for(int j=1;j<=i;j++){
+ 101           int sum=i+j;
+ 0101          System.out.print("1");
+ 10101         }else{
+               System.out.print("0");
+               }
+               
